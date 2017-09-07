@@ -1,0 +1,288 @@
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\ApplicationInsights.config
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\csc.exe
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\csc.exe.config
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\csc.rsp
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\csi.exe
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\csi.rsp
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.CSharp.Core.targets
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\System.AppContext.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\System.Collections.Immutable.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\System.Diagnostics.StackTrace.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\System.IO.FileSystem.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\System.Reflection.Metadata.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\vbc.exe
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\vbc.exe.config
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\vbc.rsp
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\VBCSCompiler.exe
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\VBCSCompiler.exe.config
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\rcateShoppingApp1.dll.config
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\rcateShoppingApp1.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\rcateShoppingApp1.pdb
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Antlr3.Runtime.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\EntityFramework.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\EntityFramework.SqlServer.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.Agent.Intercept.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.DependencyCollector.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.PerfCounterCollector.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.Web.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.WindowsServer.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.ApplicationInsights.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AspNet.Identity.Core.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AspNet.Identity.Owin.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Host.SystemWeb.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Cookies.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Facebook.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Google.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.OAuth.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Twitter.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Web.Infrastructure.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Newtonsoft.Json.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Owin.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Helpers.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Mvc.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Optimization.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Razor.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.WebPages.Deployment.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.WebPages.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.WebPages.Razor.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\WebGrease.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\EntityFramework.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\EntityFramework.SqlServer.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Helpers.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Mvc.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Optimization.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Razor.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.WebPages.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.WebPages.Deployment.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.WebPages.Razor.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Antlr3.Runtime.pdb
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Newtonsoft.Json.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AspNet.Identity.Core.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AspNet.Identity.Owin.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Host.SystemWeb.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Facebook.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Cookies.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.OAuth.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Google.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Twitter.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.ApplicationInsights.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.DependencyCollector.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.WindowsServer.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.Web.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\obj\Debug\rcateShoppingApp1.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\obj\Debug\rcateShoppingApp1.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\rcateShoppingApp1\rcateShoppingApp1\obj\Debug\rcateShoppingApp1.pdb
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\ApplicationInsights.config
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\csc.exe
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\csc.exe.config
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\csc.rsp
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\csi.exe
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\csi.rsp
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.CodeAnalysis.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.CSharp.Core.targets
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\System.AppContext.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\System.Collections.Immutable.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\System.Diagnostics.StackTrace.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\System.IO.FileSystem.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\System.Reflection.Metadata.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\vbc.exe
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\vbc.exe.config
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\vbc.rsp
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\VBCSCompiler.exe
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\VBCSCompiler.exe.config
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\rcateShoppingApp1.dll.config
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\rcateShoppingApp1.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\rcateShoppingApp1.pdb
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Antlr3.Runtime.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\EntityFramework.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\EntityFramework.SqlServer.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.Agent.Intercept.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.DependencyCollector.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.PerfCounterCollector.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.Web.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.WindowsServer.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.ApplicationInsights.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AspNet.Identity.Core.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AspNet.Identity.Owin.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Host.SystemWeb.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Cookies.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Facebook.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Google.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.OAuth.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Twitter.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Web.Infrastructure.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Newtonsoft.Json.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Owin.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Helpers.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Mvc.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Optimization.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Razor.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.WebPages.Deployment.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.WebPages.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.WebPages.Razor.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\WebGrease.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\EntityFramework.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\EntityFramework.SqlServer.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Helpers.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Mvc.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Optimization.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Razor.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.WebPages.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.WebPages.Deployment.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.WebPages.Razor.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Antlr3.Runtime.pdb
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Newtonsoft.Json.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AspNet.Identity.Core.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AspNet.Identity.Owin.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Host.SystemWeb.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Facebook.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Cookies.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.OAuth.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Google.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Twitter.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.ApplicationInsights.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.DependencyCollector.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.WindowsServer.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.Web.xml
+V:\rcateShoppingApp1\rcateShoppingApp1\obj\Debug\rcateShoppingApp1.csprojResolveAssemblyReference.cache
+V:\rcateShoppingApp1\rcateShoppingApp1\obj\Debug\rcateShoppingApp1.dll
+V:\rcateShoppingApp1\rcateShoppingApp1\obj\Debug\rcateShoppingApp1.pdb
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\ApplicationInsights.config
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\csc.exe
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\csc.exe.config
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\csc.rsp
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\csi.exe
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\csi.rsp
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\System.AppContext.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\System.Collections.Immutable.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\System.IO.FileSystem.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\System.Reflection.Metadata.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\vbc.exe
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\vbc.exe.config
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\vbc.rsp
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\VBCSCompiler.exe
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\roslyn\VBCSCompiler.exe.config
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\rcateShoppingApp1.dll.config
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\rcateShoppingApp1.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\rcateShoppingApp1.pdb
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Antlr3.Runtime.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\EntityFramework.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\EntityFramework.SqlServer.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.Agent.Intercept.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.DependencyCollector.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.Web.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.WindowsServer.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.ApplicationInsights.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AspNet.Identity.Core.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Cookies.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Facebook.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Google.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.OAuth.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Twitter.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Web.Infrastructure.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Newtonsoft.Json.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Owin.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Helpers.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Mvc.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Optimization.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Razor.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.WebPages.Deployment.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.WebPages.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.WebPages.Razor.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\WebGrease.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\EntityFramework.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\EntityFramework.SqlServer.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Helpers.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Mvc.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Optimization.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.Razor.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.WebPages.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.WebPages.Deployment.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\System.Web.WebPages.Razor.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Antlr3.Runtime.pdb
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Newtonsoft.Json.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AspNet.Identity.Core.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Facebook.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Cookies.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.OAuth.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Google.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.Twitter.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.ApplicationInsights.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.DependencyCollector.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.WindowsServer.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\bin\Microsoft.AI.Web.xml
+F:\rcateShoppingApp1\rcateShoppingApp1\obj\Debug\rcateShoppingApp1.csprojResolveAssemblyReference.cache
+F:\rcateShoppingApp1\rcateShoppingApp1\obj\Debug\rcateShoppingApp1.dll
+F:\rcateShoppingApp1\rcateShoppingApp1\obj\Debug\rcateShoppingApp1.pdb

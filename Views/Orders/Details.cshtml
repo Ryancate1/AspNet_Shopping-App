@@ -1,0 +1,180 @@
+﻿@model rcateShoppingApp1.Models.CodeFirst.Order
+
+@{
+    ViewBag.Title = "Details";
+}
+
+@if (ViewBag.JustCompleted == true)
+{
+    <center><h1 style="font-size:40px;color:darkred;border-bottom:solid darkred;padding:10px">THANK YOU <br /> FOR YOUR PURCHASE!</h1></center>
+}
+
+<div style="padding-top:20px">
+    <div style="margin-left:50px">
+        <h2>Completed Order</h2>
+    </div>
+
+    <div style="margin-left:50px">
+        <h4>Details</h4>
+        <hr />
+    </div>
+    <dl class="dl-horizontal">
+
+        <h4 style="margin-left:50px"><u>Shipping Information</u></h4>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Customer.FullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Customer.FullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OrderDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OrderDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.State)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.State)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ZipCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ZipCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Phone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OrderDetails)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OrderDetails)
+        </dd>
+
+        <br />
+        <h4 style="margin-left:50px"><u>Payment Information</u></h4>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CardNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CardNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CVC)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CVC)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExpMonth)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpMonth)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExpYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Total)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Total)
+        </dd>
+
+    </dl>
+</div>
+<div style="margin-left:50px">
+    <table class="table">
+        <tr>
+            <th></th>
+            <th>
+                Item
+            </th>
+            <th>
+                Quantity
+            </th>
+            <th>
+                Price Per
+            </th>
+            <th>
+
+            </th>
+        </tr>
+
+
+
+        @foreach (var item in Model.OrderItems)
+        {
+            <tr>
+                <td>
+                    <img src="@item.Item.MediaURL" style="max-width: 80px" />
+                </td>
+                <td>
+                    @item.Item.Name
+                </td>
+                <td>
+                    @item.Quantity
+                </td>
+                <td>
+                    @item.UnitPrice
+                </td>
+                @*<td>
+                    @Html.ActionLink("Details", "Details", "Items", new { id = item.ItemId }, null)  
+                </td>*@
+            </tr>
+
+        }
+
+    </table>
+</div>
+<p style="margin-left:50px">
+    <a class="btn btn-danger" href="@Url.Action("Index")">My Purchases</a>
+</p>

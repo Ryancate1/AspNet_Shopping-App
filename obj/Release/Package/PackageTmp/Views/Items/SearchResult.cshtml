@@ -1,0 +1,44 @@
+﻿@model IEnumerable<rcateShoppingApp1.Models.CodeFirst.Item>
+@{
+    ViewBag.Title = "SearchResult";
+}
+
+<div style="padding:30px">@Model.Count() Items</div>
+
+<br />
+
+<div class="row" style="text-align:center; font-size:18px">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-3">
+
+            <a href="@Url.Action("Details", "Items", new {id = item.Id})">
+
+                <img class="img-responsive" src="@Url.Content(item.MediaURL)" />
+
+            </a>
+            <strong><p style="padding-top:10px">@item.Name</p><p style="text-align:center">$@item.Price</p></strong>
+
+            <div style="padding-bottom:5px">
+                @using (Html.BeginForm("Create", "CartItems", new { itemId = item.Id }, FormMethod.Post, null))
+                {
+                    @Html.AntiForgeryToken()
+                    <input style="padding:5px" type="submit" class="btn btn-danger" value="Add to Cart" />
+                }
+            </div>
+
+
+
+            @if (User.IsInRole("Admin"))
+            {
+                <div>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id })
+                </div>
+                <div>
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </div>
+            }
+        </div>
+    }
+        
+    </div>

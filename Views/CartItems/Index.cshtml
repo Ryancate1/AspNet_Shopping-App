@@ -1,0 +1,80 @@
+﻿@model IEnumerable<rcateShoppingApp1.Models.CodeFirst.CartItem>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div style="margin-left:80px">
+
+    <h2>Your Shopping Cart</h2>
+
+    @*<p>
+        @Html.ActionLink("Create New", "Create")
+    </p>*@
+    
+    <div style="margin-left:90%">
+        <a class="btn btn-danger" href="@Url.Action("Create", "Orders")" style="margin-bottom: 10px">Check Out</a>
+    </div>
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ItemId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Count)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Item)
+            </th>
+            <th></th>
+        </tr>
+
+        @{decimal p = 0; }
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ItemId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Count) 
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Item.Price)
+                    @{p += item.Item.Price; }
+                </td>
+                <td>
+                    <img class="thumbnail" style="height:170px" src="@Url.Content(item.Item.MediaURL)" />
+                </td>
+                <td>
+                    @Html.ActionLink("Change Quantity", "Edit", new { id = item.Id }, new { @class = "btn btn-default" })
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id }, new { @class = "btn btn-danger" })
+                
+                </td>
+                
+
+            </tr>
+
+                        }
+
+    </table>
+
+    <hr/>
+
+    <h4>
+        <strong>
+                 <u>
+                    Total
+                </u>
+        </strong>
+    </h4>
+
+    <h4>
+        $@ViewBag.carttotal
+    </h4>
+
+</div>

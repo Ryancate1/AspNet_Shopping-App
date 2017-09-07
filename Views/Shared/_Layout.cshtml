@@ -1,0 +1,325 @@
+﻿<!DOCTYPE html>
+
+
+<!--Begin page content-->
+
+
+<html>
+<head>
+    <title>Logo | Luxury Watches</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <!--css file-->
+    <link href="~/assets/css/myCustomStyle.css" rel="stylesheet" type="text/css" />
+
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Javascript file-->
+    <script src="~/assets/Scripts/JavaScript.js"></script>
+
+
+</head>
+<body>
+
+
+
+
+    <!--Side Navbar Begins-->
+
+
+
+    <nav id="navbar" style="display:inline;">  
+                <ul>
+                    <li style="color:white;padding-left:15px;padding-right:15px;border-right:solid white">   
+                        <h3>LOGO</h3>
+                    </li>
+                    <li style="padding-left:20px">
+                        <h4><a href="@Url.Action("Index", "Home")">Home</a></h4>
+                    </li>
+                    <li style="padding-left:5px">
+                        <h4><a href="@Url.Action("Index", "Items")">Items</a></h4>
+                    </li>
+                    <li>
+                        <h4><a href="@Url.Action("Index", "CartItems")">My Cart @ViewBag.TotalCartItems</a></h4>
+                    </li>
+                    <li class="pull-right" style="padding-right:25px">
+                        <h4> @Html.Partial("_LoginPartial")</h4>   
+                    </li>
+                </ul>
+    </nav>
+       
+
+    <!--Navbar Ends-->
+   
+
+
+    <div style="margin-left: 2%"> 
+
+        <!--Icons-->
+        <div id="icons">
+                @*@if (Request.IsAuthenticated)   
+                {
+                        <a style="color:white" href="@Url.Action("Index", "CartItems")">
+                            <i class="fa fa-shopping-cart"></i> @ViewBag.TotalCartItems
+                        </a>   
+                }*@
+
+            @*@using (Html.BeginForm("SearchResult", "Items", FormMethod.Post))
+            { 
+             <input type="text" class="form-control input-sm" name="searchitem" id="searchitem" placeholder="Search" />
+             <a href="#">
+                <i style="color:white" class="fa fa-fw fa-search"></i>
+            </a>
+            }*@  
+            
+
+        </div>
+    </div>
+
+    <br /> 
+    <br />  
+         
+   
+    <div class="container">
+       
+            @RenderBody()
+
+            <!--Subscribe section begins-->
+            <div style="margin-left: 5%">
+
+                <div id="takeMeHere2" class="subsriptionSection">
+                    <h1 style="font-size:40px; color: white">Subscribe</h1>
+                    <p style="color: white">To get special offers and the weekly News Letter:</p>
+                    <input type="email" placeholder="Enter e-mail" />
+                    <button>Subscribe</button>
+                </div>
+
+                <div id="takeMeHere">
+
+                </div>
+
+                <!--Subsribe sections ends-->
+                <!--Contact section begins-->
+
+                <div style="background-color: whitesmoke;">
+                    <div class="row" style="margin-left:.5%">
+                        <form class="contact">
+                            <div class="col-xs-4">
+                                <h4 style="margin-left: 120px"><strong>Contact</strong></h4>
+                                <p style="margin-left:61px">Questions? Send us a message!</p>
+                                <input placeholder="Name" style="margin: 10px; padding: 10px; width: 300px" required /><br />
+                                <input placeholder="Email" type="email" style="margin: 10px; padding: 10px; width: 300px" required /><br />
+                                <input placeholder="Phone Number (optional)" style="margin: 10px; padding: 10px; width: 300px" /><br />
+                                <input placeholder="Message" style="margin: 10px; padding: 10px; width: 300px" required /><br />
+                                <button style="background-color:black;border-color:black;color:white;width:300px;padding:10px;margin-left:10px">Send</button>
+                            </div>
+                        </form>
+
+
+                        <!--Contact section ends-->
+                        <!--About section begins-->
+
+
+                        <div id="about" class="col-xs-4">
+                            <h4 style="margin:20px"><strong>About</strong></h4>
+                            <div style="padding:10px">
+                                <a href="#" style="color:black; padding:10px"><u>About us</u></a><br />
+                            </div>
+                            <div style="padding:10px">
+                                <a href="#" style="color:black; padding:10px"><u>We're hiring</u></a><br />
+                            </div>
+                            <div style="padding:10px">
+                                <a href="#" style="color:black; padding:10px"><u>Support</u></a><br />
+                            </div>
+                            <div id="findStore">
+                                <button id="btn1" data-toggle="modal" data-target="#myModal">Find store</button>
+                            </div>
+                            <div style="padding:10px">
+                                <a href="#" style="color:black; padding:10px"><u>Shipment</u></a><br />
+                            </div>
+                            <div style="padding:10px">
+                                <a href="#" style="color:black; padding:10px"><u>Payment</u></a><br />
+                            </div>
+                            <div style="padding:10px">
+                                <a href="#" style="color:black; padding:10px"><u>Gift card</u></a><br />
+                            </div>
+                            <div style="padding:10px">
+                                <a href="#" style="color:black; padding:10px"><u>Return</u></a><br />
+                            </div>
+                            <div style="padding:10px">
+                                <a href="#" style="color:black; padding:10px"><u>Help</u></a>
+                            </div>
+                        </div>
+
+
+                        <!--About section ends-->
+                        <!--Store section begins-->
+
+
+                        <div class="col-xs-4">
+                            <h4><strong>Store</strong></h4>
+                            <p><i class="fa fa-fw fa-map-marker"></i> Company Name</p>
+                            <p><i class="fa fa-fw fa-phone"></i> 0044123123</p>
+                            <p><i class="fa fa-fw fa-envelope"></i> Ex@gamil.com</p>
+                            <br />
+
+
+                            <!--Store section ends-->
+                            <!--'We accept' section begins-->
+
+
+                            <h4><strong>We accept</strong></h4>
+                            <p><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
+                            <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+                            <br />
+                            <div style="font-size: 25px">
+                                <a style="color:black" href="#"><i class="fa fa-facebook-official w3-hover-opacity w3-large"></i></a>
+                                <a style="color:black" href="#"><i class="fa fa-instagram w3-hover-opacity w3-large"></i></a>
+                                <a style="color:black" href="#"><i class="fa fa-snapchat w3-hover-opacity w3-large"></i></a>
+                                <a style="color:black" href="#"><i class="fa fa-pinterest w3-hover-opacity w3-large"></i></a>
+                                <a style="color:black" href="#"><i class="fa fa-twitter w3-hover-opacity w3-large"></i></a>
+                                <a style="color:black" href="#"><i class="fa fa-linkedin w3-hover-opacity w3-large"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--'We accept' section ends-->
+            <!--Footer begans-->
+
+
+            <footer>
+                <center>
+                    <div class="container">
+                        <div style="background-color: black; color: white; padding: 40px; width: 1085px;margin-left:27px">
+                            <p>Created By<a style="color:white"> Ryan Cate | &copy; 2017</p>
+                        </div>
+                    </div>
+                </center>
+            </footer>
+        </div>
+    </div>
+
+    <!--Footer ends-->
+    <!--End page content-->
+
+
+    <div id="myModal" class="modal fade" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" style="margin-top:15%">
+            <div class="modal-content">
+                <button class="fa fa-remove findStoreRemove close" data-dismiss="modal" aria-label="close" style="font-size:40px;margin-right:10px;margin-top:10px;background-color:white"></button>
+                <div class="modal-title">
+                    <div style="margin-left:300px">
+                        Find store
+                    </div>
+                </div>
+                <p style="text-align:center;font-size:20px;font-family:'Times New Roman', Times, serif">Here's our Store!</p>
+                <div class="modal-body">
+                    <input id="zipcodeHolder" type="text" placeholder="Enter your zip-code" />
+                </div>
+                <button id="navigateButton" style="margin-left:40%;background-color:firebrick;border-color:firebrick;color:white;padding-top:10px;padding-bottom:10px;margin-top:5px;margin-bottom:20px;font-size:20px">Navigate to store!</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="myModal2" class="modal fade" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" style="margin-top:15%">
+            <div class="modal-content">
+                <button class="fa fa-remove close" data-dismiss="modal" aria-label="close" style="font-size:35px; margin-right:10px;margin-top:10px;background-color:white;color:black"></button>
+                <div class="modal-title">
+                    <div style="margin-left:300px">
+                        News Letter
+                    </div>
+                </div>
+                <p style="text-align:center;font-size:20px;font-family:'Times New Roman', Times, serif">Join our mailing list to receive updates on new arrivals and special offers.</p>
+                <div class="modal-body">
+                    <input id="zipcodeHolder" type="text" placeholder="Enter your E-mail" />
+                </div>
+                <button style="background-color:firebrick;border-color:firebrick;color:white;padding-top:10px;padding-bottom:10px;margin-top:5px;margin-bottom:20px;margin-left:370px;font-size:20px">Navigate to store!</button>
+            </div>
+        </div>
+    </div>
+
+    @*<div id="myModal4" class="modal fade" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" style="margin-top:7%">
+                        <div class="modal-content" style="background-color:white;border:solid;border-color:firebrick">
+                            <button class="fa fa-remove close" data-dismiss="modal" aria-label="close" style="font-size:35px; margin-right:10px;margin-top:10px;background-color:white;color:black"></button>
+                            <div class="modal-title">
+                                <div style="margin-left:30px;text-align:center;color:firebrick;font-family:'Times New Roman';">
+                                    <strong style="color:black;font-size:25px">LOGO</strong>
+                                    <br />
+                                    <hr />
+                                    All of The 2015 Collection is on Sale!
+                                </div>
+                            </div>
+                            <div class="modal-body">
+                                <p style="text-align:center;font-size:20px;font-family:'Times New Roman', Times, serif; padding-top:20px;padding-bottom:40px;">
+                                    We will be discontinuing our 2015 collection soon, so it's all 75% OFF!<br />
+                                    Limited time only, so don't miss out!<br />
+                                    <b style="font-size:22px">Ends August 20th!</b>
+                                    <br />
+                                    <br />
+                                    <a href="#" style="color:black">Click here to view the 2015 Collection.</a>
+                                    <hr />
+                                    <div style="font-size:10px;text-align:center">**Deal only applies to purchases of any watches within the 2015 collection. No substitutions allowed. Valid through August 20th, 2017.</div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>*@
+    
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    @RenderSection("scripts", required: false)
+
+    <script>
+    function display() {
+        document.getElementById("navbar").style.display = "block";
+    }
+
+    function closeDisplay() {
+        document.getElementById("navbar").style.display = "none";
+    }
+
+
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+
+    function dropdown() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onclick = function (event) {
+        if (!event.target.matches('.dropbtn')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+
+    $(document).ready(function () {
+        $("#myModal4").modal('show');
+    })
+    </script>
+
+</body>
+</html>

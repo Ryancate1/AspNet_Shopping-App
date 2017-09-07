@@ -1,0 +1,99 @@
+﻿@model IEnumerable<rcateShoppingApp1.Models.CodeFirst.Item>
+
+                       <!--First Image: Header-->
+                       <div class="col-md-12">
+        <div>
+            <img class="img-respnsive" id="img1Header" src="~/assets/Images/3.jpg" />
+            <div class="headerText">
+                <h2 style="font-size:90px;font-family:'Times New Roman'">New Arrivals</h2>
+                <p style="font-size:40px;font-family:'Times New Roman'">2018 Collection <br /> Coming Soon!</p>
+            </div>
+        </div>
+    </div>
+
+                       <!--Content-->
+
+
+                        @*<p style="color:gray; margin-left:60px; font-size:20px">8 items</p>
+    <h5 style="text-align:center;font-size:35px;font-family:'Times New Roman'">Featured</h5>*@
+
+@if (User.IsInRole("Admin"))
+{
+    <div style="margin-left:90px;padding-bottom:10px">
+        @Html.ActionLink("Create New", "Create", new { @class = "btn btn-default" })  
+    </div>
+}
+       <div class="container">
+    <div class="row" style="text-align:center; font-size:18px">
+        @foreach (var item in Model)
+        {
+        <div class="col-md-3">
+            
+            <a href="@Url.Action("Details", "Items", new {id = item.Id})">
+
+                <img class="img-responsive" src="@Url.Content(item.MediaURL)" />
+            
+            </a>
+                <strong><p style="padding-top:10px">@item.Name</p><p style="text-align:center">$@item.Price</p></strong>
+
+            <div style="padding-bottom:5px">
+                @using (Html.BeginForm("Create", "CartItems", new { itemId = item.Id }, FormMethod.Post, null))
+                {
+                    @Html.AntiForgeryToken()
+                    <input style="padding:5px" type="submit" class="btn btn-danger" value="Add to Cart" />
+                }
+            </div>
+
+            
+            
+            @if (User.IsInRole("Admin"))
+            {
+                <div> 
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) 
+                </div>
+                <div>
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </div>
+                }
+        </div>
+        }
+    </div>
+</div>
+        @*<div class="col-md-3">
+            <a href="#"><img class="img-respnsive" src="~/assets/Images/m2.jpg" /></a>
+            <p style="position:absolute;left:70px;color:red;font-size:30px;top:0;font-family:'Times New Roman';opacity:0.8;filter: alpha(opacity=80)">ON SALE</p>
+            <strong><p style="text-align:center;padding-top:10px">CFW-1100</p><p style="text-align:center">$1,600.00</p></strong>
+        </div>
+        <div class="col-md-3">
+            <a href="#"><img class="img-respnsive" src="~/assets/Images/m3.jpg" /></a>
+            <strong><p style="text-align:center;padding-top:10px">CFW-850</p><p style="text-align:center">$1,550.00</p></strong>
+        </div>
+        <div class="col-md-3">
+            <a href="#"><img class="img-respnsive" src="~/assets//Images/m5.jpg" /></a>
+            <strong><p style="text-align:center;padding-top:10px">CFW-2500</p><p style="text-align:center">$8,700.00</p></strong>
+        </div>
+    </div>
+
+    <div class="row" style="margin:50px; font-size:18px">
+        <div class="col-md-3">
+            <a href="#"><img class="img-respnsive" src="~/assets/Images/m6.jpg" /></a>
+            <strong><p style="text-align:center;padding-top:10px">CFW-550</p><p style="text-align:center">$950.00</p></strong>
+        </div>
+        <div class="col-md-3">
+            <a href="#"><img class="img-respnsive" src="~/assets/Images/m7.jpg" /></a>
+            <strong><p style="text-align:center;padding-top:10px">CFW-1200</p><p style="text-align:center">$1,650.00</p></strong>
+        </div>
+        <div class="col-md-3">
+            <a href="#"><img class="img-respnsive" src="~/assets/Images/m8.jpg" /></a>
+            <strong><p style="text-align:center;padding-top:10px">CFW-650</p><p style="text-align:center">$1,500.00</p></strong>
+        </div>
+        <div class="col-md-3">
+            <a href="#"><img class="img-respnsive" src="~/assets/Images/m9.jpg" /></a>
+            <p style="position:absolute;left:70px;color:red;top:250px;font-family:'Times New Roman';font-size:30px;opacity:0.8;filter:alpha(opacity=80)">Limited</p>
+            <strong><p style="text-align:center;padding-top:10px">CFW-5500</p><p style="text-align:center">$12,000.00</p></strong>
+        </div>
+    </div>*@
+
+
+                           <!--Content ends-->
+                    

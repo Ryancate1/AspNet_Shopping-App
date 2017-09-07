@@ -1,0 +1,94 @@
+﻿@model rcateShoppingApp1.Models.CodeFirst.Item
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div style="margin-left:50px">
+
+<h2>Details</h2>
+
+    <div>
+        <h4>Item</h4>
+
+        <hr />
+
+    </div>
+    <div style="margin-left:100px">
+         <img class="thumbnail" src="@Url.Content(Model.MediaURL)" />
+    </div>
+
+    <dl class="dl-horizontal" style="font-size:20px;padding:50px;">
+
+                    @if (User.IsInRole("Admin"))
+                    {
+
+                    <dt style="padding:10px">
+                        @Html.DisplayNameFor(model => model.Id)
+                    </dt>
+                    <dd style="padding:10px">
+                        @Html.DisplayFor(model => model.Id)
+                    </dd>
+                    <hr/>
+                    <dt style="padding:10px">
+                        @Html.DisplayNameFor(model => model.CreationDate)
+                    </dt>
+                    <dd style="padding:10px">
+                        @Html.DisplayFor(model => model.CreationDate)
+                    </dd>
+                    <hr />
+                    <dt style="padding:10px">
+                        @Html.DisplayNameFor(model => model.UpdatedDate)
+                    </dt>
+                    <dd style="padding:10px">
+                        @Html.DisplayFor(model => model.UpdatedDate)
+                    </dd>
+                    <hr />
+                    }
+
+                    <dt style="padding:10px">
+                        @Html.DisplayNameFor(model => model.Name)
+                    </dt>
+
+                        <dd style="padding:10px">
+                            @Html.DisplayFor(model => model.Name)
+                        </dd>
+
+                        <hr/>
+
+                    <dt style="padding:10px">
+                        @Html.DisplayNameFor(model => model.Price)
+                    </dt>
+
+                        <dd style="padding:10px">
+                            $@Html.DisplayFor(model => model.Price)
+                        </dd>
+
+                        <hr/>
+
+                    <dt style="padding:10px">
+                        @Html.DisplayNameFor(model => model.Description)
+                    </dt>
+
+                        <dd style="padding:10px">
+                            @Html.Raw(Model.Description)
+                        </dd>
+    </dl>
+    
+</div> 
+<p>
+    @if (User.IsInRole("Admin"))
+    {
+        <div style="margin-left:100px">
+            <div style="padding:5px">
+                @Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new { @class = "btn btn-default" }) 
+            </div>
+            <div style="padding-bottom:5px">
+                @Html.ActionLink("Delete", "Delete", new { id = Model.Id }, new { @class = "btn btn-danger" })
+            </div>
+        </div>
+    }
+    <div style="margin-left:100px">
+         @Html.ActionLink("Back to List", "Index", null, new { @class = "actionClass" }, new { @class = "btn btn-default"})
+    </div>
+</p>

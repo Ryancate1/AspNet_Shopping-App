@@ -1,0 +1,59 @@
+﻿@model rcateShoppingApp1.Models.CodeFirst.CartItem
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<div style="margin-left:50px">
+
+    <h2>Delete</h2>
+
+    <h3>Are you sure you want to delete this?</h3>
+</div>
+
+    <div>
+
+        <h4 style="margin-left:50px">CartItem</h4>
+
+        <hr />
+
+    <dl class="dl-horizontal">
+        <dt style="padding:10px">
+            @Html.DisplayNameFor(model => model.ItemId)
+        </dt>
+
+        <dd style="padding:10px">
+            @Html.DisplayFor(model => model.ItemId)
+        </dd>
+
+        <hr/>
+
+        <dt style="padding:10px">
+            @Html.DisplayNameFor(model => model.Count)
+        </dt>
+
+        <dd style="padding:10px">
+            @Html.DisplayFor(model => model.Count)
+        </dd>
+
+        <hr />
+
+        <dt style="padding:10px">
+            @Html.DisplayNameFor(model => model.CreationDate)
+        </dt>
+
+        <dd style="padding:10px">
+            @Html.DisplayFor(model => model.CreationDate)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color" style="margin-left:50px;padding:5px">
+            <input type="submit" value="Delete" class="btn btn-danger" /> |
+            @Html.ActionLink("Back to List", "Index", null, new { @class = "actionClass"})
+        </div>
+    }
+</div>

@@ -1,0 +1,57 @@
+﻿@model rcateShoppingApp1.Models.CodeFirst.CartItem
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div style="margin-left:50px">
+    
+
+    <h2>Details</h2>
+
+</div>
+
+<div>
+
+    <div style="margin-left:50px">
+
+        <h4>CartItem</h4>
+
+    </div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt style="padding:10px">
+            @Html.DisplayNameFor(model => model.ItemId)
+        </dt>
+
+        <dd style="padding:10px">
+            @Html.DisplayFor(model => model.ItemId)
+        </dd>
+
+        <hr/>
+
+        <dt style="padding:10px">
+            @Html.DisplayNameFor(model => model.Count)
+        </dt>
+
+        <dd style="padding:10px">
+            @Html.DisplayFor(model => model.Count)
+
+        <hr/>
+
+        <dt style="padding:10px">
+            @Html.DisplayNameFor(model => model.CreationDate)
+        </dt>
+
+        <dd style="padding:10px">
+            @Html.DisplayFor(model => model.CreationDate)
+        </dd>
+
+    </dl>
+</div>
+
+<div style="margin-left:50px">
+    <p>
+        @Html.ActionLink("Back to List", "Index", null, new { @class = "actionClass" })
+    </p>
+</div>
